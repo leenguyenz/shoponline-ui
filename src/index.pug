@@ -1,0 +1,22 @@
+extends _layouts/home
+
+block head_end
+    //-vendor css
+    link(href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet")
+    link(href="lib/animatecss/animate.css" rel="stylesheet")
+    link(href="lib/owlcarousel/owl.carousel.css" rel="stylesheet")
+    //- style css
+    link(href="/css/style.css" rel="stylesheet")
+
+block content
+    #homepage
+        include _partials/header
+        include _components/shop
+        include _partials/footer
+
+block body_end
+    script(src='lib/bootstrap/js/bootstrap.min.js')
+    script(src='lib/jquery/jquery.min.js')
+    script(src='lib/owlcarousel/owl.carousel.js')
+    script(src='lib/wowjs/wow.min.js')
+    script(src="js/script.js" type="text/javascript")

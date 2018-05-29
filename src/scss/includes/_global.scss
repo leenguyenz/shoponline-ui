@@ -1,0 +1,37 @@
+*,
+*:before,
+*:after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family:$font-body;
+	color: $color-main;
+	font-size: $font-size-main;
+	line-height: $line-height-main;
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	text-transform: capitalize;
+}
+/*======link=======*/
+a:link{
+	color: $color-main;
+	text-decoration: none;
+	outline: none;
+	text-transform: capitalize;
+}
+a:visited{color: $color-main;}
+a:hover{
+	color: $color-main;
+	text-decoration: none;
+}
+a:active{color: $color-main;}
+/*=======other========*/
+.clear{
+	clear: both !important;
+}
