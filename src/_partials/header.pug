@@ -1,0 +1,14 @@
+header
+	nav
+		.logo-brand Difference
+		ul.nav-bar
+			//-Declaration
+			mixin nav-item(title,text)
+				li.nav-item
+					a(href="#" class="nav-link")= title
+						span= text
+			+nav-item('About','誰もが')
+			+nav-item('Product','誰もが')
+			+nav-item('Topics','誰もが')
+			+nav-item('Shop','誰もが')
+			+nav-item('Support','誰もが')
